@@ -3,32 +3,32 @@ import { ShieldCheck, Clock, Award, Car, ThumbsUp, DollarSign } from 'lucide-rea
 
 const features = [
   {
-    icon: <Award className="w-8 h-8 text-brand-blue" />,
+    icon: <Award className="w-6 h-6 md:w-8 md:h-8 text-brand-blue" />,
     title: "Certified Instructors",
     description: "Highly trained, government-certified professionals with years of teaching experience and patience."
   },
   {
-    icon: <Car className="w-8 h-8 text-brand-blue" />,
+    icon: <Car className="w-6 h-6 md:w-8 md:h-8 text-brand-blue" />,
     title: "Modern Training Vehicles",
     description: "Equipped with dual control controls to guarantee absolute safety and confidence during lessons."
   },
   {
-    icon: <Clock className="w-8 h-8 text-brand-blue" />,
+    icon: <Clock className="w-6 h-6 md:w-8 md:h-8 text-brand-blue" />,
     title: "Flexible Timings",
     description: "Batch schedules available in the early mornings and evenings to match your working hours."
   },
   {
-    icon: <DollarSign className="w-8 h-8 text-brand-blue" />,
+    icon: <DollarSign className="w-6 h-6 md:w-8 md:h-8 text-brand-blue" />,
     title: "Affordable Pricing",
     description: "Value-for-money courses with completely transparent fees and zero hidden charges."
   },
   {
-    icon: <ShieldCheck className="w-8 h-8 text-brand-blue" />,
+    icon: <ShieldCheck className="w-6 h-6 md:w-8 md:h-8 text-brand-blue" />,
     title: "Safe Driving Practices",
     description: "Specialized training focusing on defensive driving and safety rules to build lifelong safe habits."
   },
   {
-    icon: <ThumbsUp className="w-8 h-8 text-brand-blue" />,
+    icon: <ThumbsUp className="w-6 h-6 md:w-8 md:h-8 text-brand-blue" />,
     title: "High Success Rate",
     description: "Over 98% of our students clear their RTO driving license tests on their very first attempt."
   }
@@ -84,7 +84,7 @@ const WhyChooseUs = () => {
               {/* Decorative corner glow */}
               <div className="absolute -right-10 -top-10 w-32 h-32 bg-brand-blue/5 rounded-full blur-3xl group-hover:bg-brand-blue/10 transition-all duration-500"></div>
               
-              <div className="w-16 h-16 rounded-xl bg-slate-50 flex items-center justify-center mb-6 group-hover:scale-110 transition-all duration-300 border border-slate-200/50 group-hover:border-brand-blue/30 shadow-sm">
+              <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-slate-50 flex items-center justify-center mb-6 group-hover:scale-110 transition-all duration-300 border border-slate-200/50 group-hover:border-brand-blue/30 shadow-sm">
                 {feature.icon}
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-brand-blue transition-colors">

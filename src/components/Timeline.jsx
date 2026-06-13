@@ -146,8 +146,10 @@ const Timeline = () => {
                 </div>
 
                 {/* Center Node */}
-                <div className="absolute left-8 md:left-1/2 w-12 h-12 -translate-x-1/2 bg-brand-blue rounded-full flex items-center justify-center border-4 border-white shadow-md z-10 md:static md:translate-x-0 transition-transform duration-300 hover:scale-110">
-                  {step.icon}
+                <div className="absolute left-8 md:left-1/2 w-9 h-9 md:w-12 md:h-12 -translate-x-1/2 bg-brand-blue rounded-full flex items-center justify-center border-2 md:border-4 border-white shadow-md z-10 md:static md:translate-x-0 transition-transform duration-300 hover:scale-110">
+                  <div className="scale-[0.75] md:scale-100 flex items-center justify-center">
+                    {step.icon}
+                  </div>
                 </div>
 
                 {/* Empty Space for alternate layout */}

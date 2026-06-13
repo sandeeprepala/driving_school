@@ -3,42 +3,42 @@ import { UserPlus, CheckSquare, BarChart3, Car, Calendar, FileBadge, MessageSqua
 
 const techFeatures = [
   {
-    icon: <UserPlus className="w-6 h-6 text-brand-blue" />,
+    icon: <UserPlus className="w-5 h-5 md:w-6 md:h-6 text-brand-blue" />,
     title: "Online Enrollment",
     description: "Students can register, select courses, upload LLR paperwork, and initiate admissions directly online."
   },
   {
-    icon: <CheckSquare className="w-6 h-6 text-brand-blue" />,
+    icon: <CheckSquare className="w-5 h-5 md:w-6 md:h-6 text-brand-blue" />,
     title: "Digital Attendance",
     description: "GPS-verified session logins and biometrics log each minute spent behind the steering wheel."
   },
   {
-    icon: <BarChart3 className="w-6 h-6 text-brand-blue" />,
+    icon: <BarChart3 className="w-5 h-5 md:w-6 md:h-6 text-brand-blue" />,
     title: "Student Progress Tracking",
     description: "Track driving parameters (parking, reversing, highway, speeds) with clear charts on the dashboard."
   },
   {
-    icon: <Car className="w-6 h-6 text-brand-blue" />,
+    icon: <Car className="w-5 h-5 md:w-6 md:h-6 text-brand-blue" />,
     title: "Vehicle Management",
     description: "Live fuel, fitness certificates, and insurance logs ensure dual-control training cars are in 100% top condition."
   },
   {
-    icon: <Calendar className="w-6 h-6 text-brand-blue" />,
+    icon: <Calendar className="w-5 h-5 md:w-6 md:h-6 text-brand-blue" />,
     title: "Instructor Scheduling",
     description: "Book morning or evening classes with dedicated trainers based on hourly time slot calendars."
   },
   {
-    icon: <FileBadge className="w-6 h-6 text-brand-blue" />,
+    icon: <FileBadge className="w-5 h-5 md:w-6 md:h-6 text-brand-blue" />,
     title: "Certificate Generation",
     description: "Automatic generation of official course completion certificates upon clearing RTO mock tests."
   },
   {
-    icon: <MessageSquare className="w-6 h-6 text-brand-blue" />,
+    icon: <MessageSquare className="w-5 h-5 md:w-6 md:h-6 text-brand-blue" />,
     title: "Feedback Management",
     description: "Instructors submit grading feedback for each lesson while students review and rate their trainers."
   },
   {
-    icon: <Smartphone className="w-6 h-6 text-brand-blue" />,
+    icon: <Smartphone className="w-5 h-5 md:w-6 md:h-6 text-brand-blue" />,
     title: "SMS Notifications",
     description: "Instant SMS/WhatsApp alerts for booking confirmations, slot changes, attendance receipts, and RTO test alerts."
   }
@@ -76,7 +76,7 @@ const TechFeatures = () => {
               whileHover={{ y: -6 }}
               className="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm hover:shadow-md transition-all duration-300 relative group overflow-hidden w-[250px] xs:w-[280px] lg:w-auto shrink-0 snap-align-center"
             >
-              <div className="w-12 h-12 rounded-2xl bg-slate-50 border border-slate-200/50 flex items-center justify-center mb-6 group-hover:scale-105 group-hover:border-brand-blue/30 shadow-sm transition-all duration-300">
+              <div className="w-10 h-10 md:w-12 md:h-12 rounded-2xl bg-slate-50 border border-slate-200/50 flex items-center justify-center mb-6 group-hover:scale-105 group-hover:border-brand-blue/30 shadow-sm transition-all duration-300">
                 {feat.icon}
               </div>
               <h3 className="text-base font-bold text-slate-900 mb-3 group-hover:text-brand-blue transition-colors">
