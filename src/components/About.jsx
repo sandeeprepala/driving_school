@@ -30,12 +30,12 @@ const About = () => {
     <section id="about" className="py-12 md:py-24 bg-white relative">
       {/* Decorative background grid line */}
       <div className="absolute left-1/2 top-0 bottom-0 w-px bg-slate-100 hidden lg:block -translate-x-1/2"></div>
-      
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
-          
+
           {/* Image / Stats Side */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -44,14 +44,14 @@ const About = () => {
           >
             <div className="relative rounded-3xl overflow-hidden aspect-video md:aspect-[4/5] lg:aspect-square max-w-sm sm:max-w-md mx-auto w-full shadow-xl border border-slate-100">
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent z-10"></div>
-              
-              <img 
-                src="https://res.cloudinary.com/djqfcheof/image/upload/v1781333681/ChatGPT_Image_Jun_13_2026_12_24_31_PM_vg93is.png" 
-                alt="Sai Sandhya Driving School" 
-                className="absolute inset-0 w-full h-full object-cover" 
+
+              <img
+                src="https://res.cloudinary.com/djqfcheof/image/upload/v1781333681/ChatGPT_Image_Jun_13_2026_12_24_31_PM_vg93is.png"
+                alt="Sai Sandhya Driving School"
+                className="absolute inset-0 w-full h-full object-cover"
               />
 
-              
+
               {/* Overlay with local branding */}
               <div className="absolute bottom-8 left-8 right-8 z-20 text-white">
                 <h3 className="text-3xl font-extrabold tracking-tight mb-1">
@@ -65,16 +65,16 @@ const About = () => {
                   <span>4.6 Rating (8 Reviews)</span>
                 </div>
               </div>
-              
+
               <div className="absolute inset-0 border-4 border-white/25 rounded-3xl m-4 z-20"></div>
             </div>
-            
+
             {/* Experience Badge */}
             <div className="absolute -bottom-6 -right-6 glass-panel p-6 rounded-2xl z-30 shadow-xl border border-slate-100 hidden md:block">
               <div className="flex items-center gap-4">
                 <div className="text-4xl font-extrabold text-brand-blue">15+</div>
                 <div className="text-sm text-slate-700 font-bold leading-tight">
-                  Years of<br/>Excellence
+                  Years of<br />Excellence
                 </div>
               </div>
             </div>
@@ -94,13 +94,13 @@ const About = () => {
                 About Our Driving School
               </span>
             </motion.div>
-            
+
             <motion.h2 variants={itemVariants} className="text-4xl lg:text-5xl font-extrabold text-slate-900 mb-6 leading-tight">
               Master the Road with <span className="text-brand-blue">Sai Sandhya</span>
             </motion.h2>
-            
+
             <motion.p variants={itemVariants} className="text-slate-600 text-lg mb-8 leading-relaxed">
-              Located in <strong>Kandlakoya, Rangareddy</strong>, Sai Sandhya Motor Driving School Anil is a premier training provider dedicated to top-notch road education. We combine professional, structured theoretical guidelines with hands-on practice, helping you become an expert, responsible driver.
+              Located in <strong>Kandlakoya, Medchal</strong>, Sai Sandhya Motor Driving School Anil is a premier training provider dedicated to top-notch road education. We combine professional, structured theoretical guidelines with hands-on practice, helping you become an expert, responsible driver.
             </motion.p>
 
             <motion.div variants={itemVariants} className="mb-8">

@@ -110,7 +110,7 @@ const Hero = () => {
             >
               <span className="w-2.5 h-2.5 rounded-full bg-brand-blue animate-pulse"></span>
               <span className="text-slate-800 text-[11px] font-extrabold tracking-wider uppercase">
-                🏆 #1 Government Approved Driving Academy in Rangareddy
+                🏆 #1 Government Approved Driving Academy in Medchal
               </span>
             </motion.div>
 
@@ -130,7 +130,7 @@ const Hero = () => {
                 transition={{ duration: 0.8, delay: 0.2 }}
                 className="text-slate-500 text-base sm:text-lg leading-relaxed"
               >
-                Defensive training setups, dual-control safe fleet, and first-attempt RTO license success templates. Book class slots in <strong>Kandlakoya, Rangareddy</strong>.
+                Defensive training setups, dual-control safe fleet, and first-attempt RTO license success templates. Book class slots in <strong>Kandlakoya</strong>.
               </motion.p>
             </div>
 
@@ -197,37 +197,37 @@ const Hero = () => {
                 <div className="absolute top-4 left-0 w-[200%] h-20 pointer-events-none anim-clouds">
                   {/* Cloud 1 */}
                   <svg className="absolute top-2 left-[5%]" width="100" height="40" viewBox="0 0 100 40">
-                    <ellipse cx="50" cy="25" rx="45" ry="15" fill="white" opacity="0.9"/>
-                    <ellipse cx="30" cy="20" rx="25" ry="12" fill="white" opacity="0.95"/>
-                    <ellipse cx="65" cy="18" rx="30" ry="14" fill="white" opacity="0.85"/>
-                    <ellipse cx="48" cy="15" rx="20" ry="10" fill="white" opacity="0.95"/>
+                    <ellipse cx="50" cy="25" rx="45" ry="15" fill="white" opacity="0.9" />
+                    <ellipse cx="30" cy="20" rx="25" ry="12" fill="white" opacity="0.95" />
+                    <ellipse cx="65" cy="18" rx="30" ry="14" fill="white" opacity="0.85" />
+                    <ellipse cx="48" cy="15" rx="20" ry="10" fill="white" opacity="0.95" />
                   </svg>
                   {/* Cloud 2 */}
                   <svg className="absolute top-8 left-[30%]" width="80" height="35" viewBox="0 0 80 35">
-                    <ellipse cx="40" cy="22" rx="35" ry="12" fill="white" opacity="0.7"/>
-                    <ellipse cx="25" cy="18" rx="22" ry="10" fill="white" opacity="0.8"/>
-                    <ellipse cx="55" cy="16" rx="20" ry="9" fill="white" opacity="0.75"/>
+                    <ellipse cx="40" cy="22" rx="35" ry="12" fill="white" opacity="0.7" />
+                    <ellipse cx="25" cy="18" rx="22" ry="10" fill="white" opacity="0.8" />
+                    <ellipse cx="55" cy="16" rx="20" ry="9" fill="white" opacity="0.75" />
                   </svg>
                   {/* Cloud 3 */}
                   <svg className="absolute top-1 left-[60%]" width="120" height="45" viewBox="0 0 120 45">
-                    <ellipse cx="60" cy="28" rx="55" ry="16" fill="white" opacity="0.85"/>
-                    <ellipse cx="35" cy="22" rx="30" ry="13" fill="white" opacity="0.9"/>
-                    <ellipse cx="80" cy="20" rx="32" ry="14" fill="white" opacity="0.8"/>
-                    <ellipse cx="55" cy="15" rx="22" ry="11" fill="white" opacity="0.95"/>
+                    <ellipse cx="60" cy="28" rx="55" ry="16" fill="white" opacity="0.85" />
+                    <ellipse cx="35" cy="22" rx="30" ry="13" fill="white" opacity="0.9" />
+                    <ellipse cx="80" cy="20" rx="32" ry="14" fill="white" opacity="0.8" />
+                    <ellipse cx="55" cy="15" rx="22" ry="11" fill="white" opacity="0.95" />
                   </svg>
                   {/* Duplicate set for seamless loop */}
                   <svg className="absolute top-2 left-[105%]" width="100" height="40" viewBox="0 0 100 40">
-                    <ellipse cx="50" cy="25" rx="45" ry="15" fill="white" opacity="0.9"/>
-                    <ellipse cx="30" cy="20" rx="25" ry="12" fill="white" opacity="0.95"/>
-                    <ellipse cx="65" cy="18" rx="30" ry="14" fill="white" opacity="0.85"/>
+                    <ellipse cx="50" cy="25" rx="45" ry="15" fill="white" opacity="0.9" />
+                    <ellipse cx="30" cy="20" rx="25" ry="12" fill="white" opacity="0.95" />
+                    <ellipse cx="65" cy="18" rx="30" ry="14" fill="white" opacity="0.85" />
                   </svg>
                   <svg className="absolute top-8 left-[130%]" width="80" height="35" viewBox="0 0 80 35">
-                    <ellipse cx="40" cy="22" rx="35" ry="12" fill="white" opacity="0.7"/>
-                    <ellipse cx="25" cy="18" rx="22" ry="10" fill="white" opacity="0.8"/>
+                    <ellipse cx="40" cy="22" rx="35" ry="12" fill="white" opacity="0.7" />
+                    <ellipse cx="25" cy="18" rx="22" ry="10" fill="white" opacity="0.8" />
                   </svg>
                   <svg className="absolute top-1 left-[160%]" width="120" height="45" viewBox="0 0 120 45">
-                    <ellipse cx="60" cy="28" rx="55" ry="16" fill="white" opacity="0.85"/>
-                    <ellipse cx="35" cy="22" rx="30" ry="13" fill="white" opacity="0.9"/>
+                    <ellipse cx="60" cy="28" rx="55" ry="16" fill="white" opacity="0.85" />
+                    <ellipse cx="35" cy="22" rx="30" ry="13" fill="white" opacity="0.9" />
                   </svg>
                 </div>
 
@@ -245,11 +245,11 @@ const Hero = () => {
                       </linearGradient>
                     </defs>
                     {/* Far mountains */}
-                    <path d="M0,120 L0,80 L60,50 L120,75 L200,35 L280,65 L350,25 L420,60 L500,40 L580,70 L600,120 Z" fill="url(#mt1)" opacity="0.6"/>
-                    <path d="M600,120 L600,80 L660,50 L720,75 L800,35 L880,65 L950,25 L1020,60 L1100,40 L1200,70 L1200,120 Z" fill="url(#mt1)" opacity="0.6"/>
+                    <path d="M0,120 L0,80 L60,50 L120,75 L200,35 L280,65 L350,25 L420,60 L500,40 L580,70 L600,120 Z" fill="url(#mt1)" opacity="0.6" />
+                    <path d="M600,120 L600,80 L660,50 L720,75 L800,35 L880,65 L950,25 L1020,60 L1100,40 L1200,70 L1200,120 Z" fill="url(#mt1)" opacity="0.6" />
                     {/* Near mountains */}
-                    <path d="M0,120 L0,90 L80,60 L160,85 L240,50 L340,75 L400,55 L480,80 L560,65 L600,120 Z" fill="url(#mt2)" opacity="0.5"/>
-                    <path d="M600,120 L600,90 L680,60 L760,85 L840,50 L940,75 L1000,55 L1080,80 L1160,65 L1200,120 Z" fill="url(#mt2)" opacity="0.5"/>
+                    <path d="M0,120 L0,90 L80,60 L160,85 L240,50 L340,75 L400,55 L480,80 L560,65 L600,120 Z" fill="url(#mt2)" opacity="0.5" />
+                    <path d="M600,120 L600,90 L680,60 L760,85 L840,50 L940,75 L1000,55 L1080,80 L1160,65 L1200,120 Z" fill="url(#mt2)" opacity="0.5" />
                   </svg>
                 </div>
 
@@ -260,21 +260,21 @@ const Hero = () => {
                     {[0, 200, 400, 600, 800, 1000, 1200, 1400].map((x, i) => (
                       <g key={i}>
                         {/* Tree trunk */}
-                        <rect x={x + 30} y="55" width="6" height="45" fill="#5D4E37" rx="2"/>
+                        <rect x={x + 30} y="55" width="6" height="45" fill="#5D4E37" rx="2" />
                         {/* Tree canopy */}
                         <ellipse cx={x + 33} cy="45" rx="22" ry="28" fill={i % 3 === 0 ? '#2D6A4F' : i % 3 === 1 ? '#40916C' : '#357A5A'} />
-                        <ellipse cx={x + 33} cy="38" rx="16" ry="20" fill={i % 2 === 0 ? '#52B788' : '#48A978'} opacity="0.7"/>
+                        <ellipse cx={x + 33} cy="38" rx="16" ry="20" fill={i % 2 === 0 ? '#52B788' : '#48A978'} opacity="0.7" />
 
                         {/* Smaller tree */}
-                        <rect x={x + 90} y="65" width="4" height="35" fill="#6B5B45" rx="1.5"/>
+                        <rect x={x + 90} y="65" width="4" height="35" fill="#6B5B45" rx="1.5" />
                         <ellipse cx={x + 92} cy="55" rx="16" ry="22" fill={i % 2 === 0 ? '#357A5A' : '#2D6A4F'} />
 
                         {/* Building/house */}
-                        <rect x={x + 140} y="45" width="35" height="55" fill={i % 2 === 0 ? '#E8DDD3' : '#D4C5B5'} rx="2"/>
-                        <rect x={x + 148} y="55" width="8" height="10" fill="#87CEEB" opacity="0.7" rx="1"/>
-                        <rect x={x + 160} y="55" width="8" height="10" fill="#87CEEB" opacity="0.7" rx="1"/>
-                        <rect x={x + 148} y="72" width="8" height="10" fill="#87CEEB" opacity="0.5" rx="1"/>
-                        <rect x={x + 160} y="72" width="8" height="10" fill="#87CEEB" opacity="0.5" rx="1"/>
+                        <rect x={x + 140} y="45" width="35" height="55" fill={i % 2 === 0 ? '#E8DDD3' : '#D4C5B5'} rx="2" />
+                        <rect x={x + 148} y="55" width="8" height="10" fill="#87CEEB" opacity="0.7" rx="1" />
+                        <rect x={x + 160} y="55" width="8" height="10" fill="#87CEEB" opacity="0.7" rx="1" />
+                        <rect x={x + 148} y="72" width="8" height="10" fill="#87CEEB" opacity="0.5" rx="1" />
+                        <rect x={x + 160} y="72" width="8" height="10" fill="#87CEEB" opacity="0.5" rx="1" />
                         <polygon points={`${x + 137},45 ${x + 157},25 ${x + 178},45`} fill={i % 2 === 0 ? '#C0392B' : '#A93226'} />
                       </g>
                     ))}
@@ -390,103 +390,103 @@ const Hero = () => {
                     </defs>
 
                     {/* Ground shadow */}
-                    <ellipse cx="175" cy="128" rx="120" ry="10" fill="rgba(0,0,0,0.15)" filter="url(#carShadow)"/>
+                    <ellipse cx="175" cy="128" rx="120" ry="10" fill="rgba(0,0,0,0.15)" filter="url(#carShadow)" />
 
                     {/* === CAR BODY === */}
                     {/* Roof & cabin */}
-                    <path d="M110,48 L125,26 C128,22 135,20 142,20 L220,20 C228,20 232,22 234,26 L255,48 Z" fill="url(#carBody)" stroke="#94A3B8" strokeWidth="1.5"/>
+                    <path d="M110,48 L125,26 C128,22 135,20 142,20 L220,20 C228,20 232,22 234,26 L255,48 Z" fill="url(#carBody)" stroke="#94A3B8" strokeWidth="1.5" />
 
                     {/* Main body */}
-                    <path d="M55,48 L285,48 C295,48 300,52 302,58 L308,80 C310,86 308,92 302,94 L295,96 L55,96 L42,94 C36,92 34,86 36,80 L42,58 C44,52 48,48 55,48 Z" fill="url(#carBody)" stroke="#94A3B8" strokeWidth="1.5"/>
+                    <path d="M55,48 L285,48 C295,48 300,52 302,58 L308,80 C310,86 308,92 302,94 L295,96 L55,96 L42,94 C36,92 34,86 36,80 L42,58 C44,52 48,48 55,48 Z" fill="url(#carBody)" stroke="#94A3B8" strokeWidth="1.5" />
 
                     {/* Body highlight / reflection stripe */}
-                    <path d="M60,65 L300,65 L302,72 L58,72 Z" fill="url(#bodyReflect)"/>
+                    <path d="M60,65 L300,65 L302,72 L58,72 Z" fill="url(#bodyReflect)" />
 
                     {/* Door line */}
-                    <line x1="180" y1="48" x2="178" y2="94" stroke="#94A3B8" strokeWidth="1" opacity="0.5"/>
+                    <line x1="180" y1="48" x2="178" y2="94" stroke="#94A3B8" strokeWidth="1" opacity="0.5" />
                     {/* Door handle */}
-                    <rect x="190" y="68" width="14" height="4" rx="2" fill="#94A3B8" opacity="0.6"/>
-                    <rect x="145" y="68" width="14" height="4" rx="2" fill="#94A3B8" opacity="0.6"/>
+                    <rect x="190" y="68" width="14" height="4" rx="2" fill="#94A3B8" opacity="0.6" />
+                    <rect x="145" y="68" width="14" height="4" rx="2" fill="#94A3B8" opacity="0.6" />
 
                     {/* === WINDOWS === */}
                     {/* Rear window */}
-                    <path d="M115,49 L128,29 C130,26 134,24 140,24 L170,24 L170,49 Z" fill="url(#glass)" opacity="0.85" stroke="#64748B" strokeWidth="1"/>
+                    <path d="M115,49 L128,29 C130,26 134,24 140,24 L170,24 L170,49 Z" fill="url(#glass)" opacity="0.85" stroke="#64748B" strokeWidth="1" />
                     {/* Window divider pillar */}
-                    <line x1="170" y1="24" x2="172" y2="49" stroke="#94A3B8" strokeWidth="4"/>
+                    <line x1="170" y1="24" x2="172" y2="49" stroke="#94A3B8" strokeWidth="4" />
                     {/* Front window */}
-                    <path d="M175,24 L222,24 C227,24 230,26 232,28 L250,49 L175,49 Z" fill="url(#glass)" opacity="0.85" stroke="#64748B" strokeWidth="1"/>
+                    <path d="M175,24 L222,24 C227,24 230,26 232,28 L250,49 L175,49 Z" fill="url(#glass)" opacity="0.85" stroke="#64748B" strokeWidth="1" />
 
                     {/* Window reflection glare */}
-                    <path d="M130,32 L138,26 L140,28 L132,35 Z" fill="white" opacity="0.4"/>
-                    <path d="M195,28 L205,24 L208,26 L198,32 Z" fill="white" opacity="0.35"/>
+                    <path d="M130,32 L138,26 L140,28 L132,35 Z" fill="white" opacity="0.4" />
+                    <path d="M195,28 L205,24 L208,26 L198,32 Z" fill="white" opacity="0.35" />
 
                     {/* === HEADLIGHTS === */}
-                    <path d="M296,60 L308,70 L310,82 L300,88 L296,60 Z" fill="#FEF3C7" stroke="#94A3B8" strokeWidth="1"/>
-                    <path d="M298,65 L306,72 L307,80 L300,84 Z" fill="#FDE68A" opacity="0.9"/>
+                    <path d="M296,60 L308,70 L310,82 L300,88 L296,60 Z" fill="#FEF3C7" stroke="#94A3B8" strokeWidth="1" />
+                    <path d="M298,65 L306,72 L307,80 L300,84 Z" fill="#FDE68A" opacity="0.9" />
                     {/* Headlight glow */}
-                    {isMoving && <circle cx="306" cy="75" r="8" fill="#FEF08A" opacity="0.3" style={{ filter: 'blur(4px)' }}/>}
+                    {isMoving && <circle cx="306" cy="75" r="8" fill="#FEF08A" opacity="0.3" style={{ filter: 'blur(4px)' }} />}
 
                     {/* === TAIL LIGHTS === */}
-                    <path d="M48,60 L38,70 L36,82 L44,88 L48,60 Z" fill="#FCA5A5" stroke="#94A3B8" strokeWidth="1"/>
-                    <path d="M46,65 L40,72 L39,80 L44,84 Z" fill="#EF4444" opacity="0.9"/>
-                    {isMoving && <circle cx="40" cy="75" r="6" fill="#EF4444" opacity="0.25" style={{ filter: 'blur(3px)' }}/>}
+                    <path d="M48,60 L38,70 L36,82 L44,88 L48,60 Z" fill="#FCA5A5" stroke="#94A3B8" strokeWidth="1" />
+                    <path d="M46,65 L40,72 L39,80 L44,84 Z" fill="#EF4444" opacity="0.9" />
+                    {isMoving && <circle cx="40" cy="75" r="6" fill="#EF4444" opacity="0.25" style={{ filter: 'blur(3px)' }} />}
 
                     {/* === BUMPERS === */}
                     {/* Front bumper */}
-                    <path d="M295,88 L310,88 C314,88 316,90 316,94 L314,100 C313,102 310,104 308,104 L290,104 L292,96 Z" fill="#E2E8F0" stroke="#94A3B8" strokeWidth="1"/>
+                    <path d="M295,88 L310,88 C314,88 316,90 316,94 L314,100 C313,102 310,104 308,104 L290,104 L292,96 Z" fill="#E2E8F0" stroke="#94A3B8" strokeWidth="1" />
                     {/* Rear bumper */}
-                    <path d="M48,88 L34,88 C30,88 28,90 28,94 L30,100 C31,102 34,104 36,104 L54,104 L52,96 Z" fill="#E2E8F0" stroke="#94A3B8" strokeWidth="1"/>
+                    <path d="M48,88 L34,88 C30,88 28,90 28,94 L30,100 C31,102 34,104 36,104 L54,104 L52,96 Z" fill="#E2E8F0" stroke="#94A3B8" strokeWidth="1" />
 
                     {/* === FRONT GRILL === */}
-                    <rect x="296" y="78" width="12" height="8" rx="1.5" fill="#374151" stroke="#4B5563" strokeWidth="0.8"/>
+                    <rect x="296" y="78" width="12" height="8" rx="1.5" fill="#374151" stroke="#4B5563" strokeWidth="0.8" />
                     {[0, 1, 2, 3].map(i => (
-                      <line key={i} x1={298 + i * 3} y1="79" x2={298 + i * 3} y2="85" stroke="#1F2937" strokeWidth="0.8"/>
+                      <line key={i} x1={298 + i * 3} y1="79" x2={298 + i * 3} y2="85" stroke="#1F2937" strokeWidth="0.8" />
                     ))}
 
                     {/* === L-PLATE (on roof) === */}
-                    <rect x="175" y="12" width="18" height="14" fill="white" stroke="#1E293B" strokeWidth="1.5" rx="2"/>
+                    <rect x="175" y="12" width="18" height="14" fill="white" stroke="#1E293B" strokeWidth="1.5" rx="2" />
                     <text x="184" y="23" textAnchor="middle" fontSize="11" fontWeight="900" fill="#DC2626" fontFamily="Impact, Arial Black, sans-serif">L</text>
 
                     {/* === "SAI SANDHYA DRIVING SCHOOL" text on body === */}
                     <text x="172" y="60" textAnchor="middle" fontSize="6" fontWeight="800" fill="#1E40AF" fontFamily="Arial, sans-serif" letterSpacing="1.2" opacity="0.8">SAI SANDHYA DRIVING SCHOOL</text>
 
                     {/* === SIDE MIRROR === */}
-                    <rect x="256" y="44" width="10" height="8" rx="3" fill="#94A3B8" stroke="#64748B" strokeWidth="1"/>
+                    <rect x="256" y="44" width="10" height="8" rx="3" fill="#94A3B8" stroke="#64748B" strokeWidth="1" />
 
                     {/* === WHEELS === */}
                     {/* Rear wheel */}
                     <g>
-                      <circle cx="100" cy="104" r="22" fill="#1F2937" stroke="#111827" strokeWidth="2"/>
-                      <circle cx="100" cy="104" r="18" fill="url(#wheelGrad)"/>
+                      <circle cx="100" cy="104" r="22" fill="#1F2937" stroke="#111827" strokeWidth="2" />
+                      <circle cx="100" cy="104" r="18" fill="url(#wheelGrad)" />
                       {/* Tire tread pattern */}
-                      <circle cx="100" cy="104" r="20" fill="none" stroke="#374151" strokeWidth="2" strokeDasharray="3,3"/>
+                      <circle cx="100" cy="104" r="20" fill="none" stroke="#374151" strokeWidth="2" strokeDasharray="3,3" />
                       {/* Spinning hubcap */}
                       <g className="anim-wheel" style={{ transformOrigin: '100px 104px' }}>
-                        <circle cx="100" cy="104" r="11" fill="url(#hubcap)" stroke="#9CA3AF" strokeWidth="0.5"/>
+                        <circle cx="100" cy="104" r="11" fill="url(#hubcap)" stroke="#9CA3AF" strokeWidth="0.5" />
                         {/* Spokes */}
                         {[0, 60, 120, 180, 240, 300].map((angle, i) => (
-                          <line key={i} x1="100" y1="104" x2={100 + 9 * Math.cos(angle * Math.PI / 180)} y2={104 + 9 * Math.sin(angle * Math.PI / 180)} stroke="#6B7280" strokeWidth="1.5"/>
+                          <line key={i} x1="100" y1="104" x2={100 + 9 * Math.cos(angle * Math.PI / 180)} y2={104 + 9 * Math.sin(angle * Math.PI / 180)} stroke="#6B7280" strokeWidth="1.5" />
                         ))}
-                        <circle cx="100" cy="104" r="3" fill="#4B5563" stroke="#6B7280" strokeWidth="0.8"/>
+                        <circle cx="100" cy="104" r="3" fill="#4B5563" stroke="#6B7280" strokeWidth="0.8" />
                       </g>
                     </g>
 
                     {/* Front wheel */}
                     <g>
-                      <circle cx="260" cy="104" r="22" fill="#1F2937" stroke="#111827" strokeWidth="2"/>
-                      <circle cx="260" cy="104" r="18" fill="url(#wheelGrad)"/>
-                      <circle cx="260" cy="104" r="20" fill="none" stroke="#374151" strokeWidth="2" strokeDasharray="3,3"/>
+                      <circle cx="260" cy="104" r="22" fill="#1F2937" stroke="#111827" strokeWidth="2" />
+                      <circle cx="260" cy="104" r="18" fill="url(#wheelGrad)" />
+                      <circle cx="260" cy="104" r="20" fill="none" stroke="#374151" strokeWidth="2" strokeDasharray="3,3" />
                       <g className="anim-wheel" style={{ transformOrigin: '260px 104px' }}>
-                        <circle cx="260" cy="104" r="11" fill="url(#hubcap)" stroke="#9CA3AF" strokeWidth="0.5"/>
+                        <circle cx="260" cy="104" r="11" fill="url(#hubcap)" stroke="#9CA3AF" strokeWidth="0.5" />
                         {[0, 60, 120, 180, 240, 300].map((angle, i) => (
-                          <line key={i} x1="260" y1="104" x2={260 + 9 * Math.cos(angle * Math.PI / 180)} y2={104 + 9 * Math.sin(angle * Math.PI / 180)} stroke="#6B7280" strokeWidth="1.5"/>
+                          <line key={i} x1="260" y1="104" x2={260 + 9 * Math.cos(angle * Math.PI / 180)} y2={104 + 9 * Math.sin(angle * Math.PI / 180)} stroke="#6B7280" strokeWidth="1.5" />
                         ))}
-                        <circle cx="260" cy="104" r="3" fill="#4B5563" stroke="#6B7280" strokeWidth="0.8"/>
+                        <circle cx="260" cy="104" r="3" fill="#4B5563" stroke="#6B7280" strokeWidth="0.8" />
                       </g>
                     </g>
 
                     {/* === LICENSE PLATE (rear) === */}
-                    <rect x="40" y="88" width="30" height="10" rx="1.5" fill="#FACC15" stroke="#92400E" strokeWidth="1"/>
+                    <rect x="40" y="88" width="30" height="10" rx="1.5" fill="#FACC15" stroke="#92400E" strokeWidth="1" />
                     <text x="55" y="96" textAnchor="middle" fontSize="5" fontWeight="900" fill="#1E293B" fontFamily="Courier, monospace">TS 09</text>
 
                   </svg>
@@ -506,11 +506,10 @@ const Hero = () => {
                     <Gauge className="w-4 h-4 text-brand-blue" />
                     <span className="text-[10px] font-black text-slate-400 uppercase tracking-wider">Drive Simulator</span>
                   </div>
-                  <div className={`px-3 py-1 rounded-full text-[11px] font-black font-mono border transition-all duration-500 ${
-                    targetSpeed === 100 ? 'bg-emerald-50 text-emerald-700 border-emerald-200' :
+                  <div className={`px-3 py-1 rounded-full text-[11px] font-black font-mono border transition-all duration-500 ${targetSpeed === 100 ? 'bg-emerald-50 text-emerald-700 border-emerald-200' :
                     targetSpeed === 0 ? 'bg-rose-50 text-rose-700 border-rose-200' :
-                    'bg-brand-blue/5 text-brand-blue border-brand-blue/20'
-                  }`}>
+                      'bg-brand-blue/5 text-brand-blue border-brand-blue/20'
+                    }`}>
                     {Math.round(currentSpeed)} KM/H
                   </div>
                 </div>
@@ -529,33 +528,30 @@ const Hero = () => {
                 <div className="grid grid-cols-3 gap-2">
                   <button
                     onClick={() => setTargetSpeed(0)}
-                    className={`py-2.5 px-1 rounded-xl text-[10px] font-black tracking-wider transition-all flex items-center justify-center gap-1.5 ${
-                      targetSpeed === 0
-                        ? 'bg-rose-600 text-white shadow-md shadow-rose-200'
-                        : 'bg-slate-50 text-slate-600 hover:bg-rose-50 hover:text-rose-600 border border-slate-200'
-                    }`}
+                    className={`py-2.5 px-1 rounded-xl text-[10px] font-black tracking-wider transition-all flex items-center justify-center gap-1.5 ${targetSpeed === 0
+                      ? 'bg-rose-600 text-white shadow-md shadow-rose-200'
+                      : 'bg-slate-50 text-slate-600 hover:bg-rose-50 hover:text-rose-600 border border-slate-200'
+                      }`}
                   >
                     🛑 BRAKE
                   </button>
 
                   <button
                     onClick={() => setTargetSpeed(60)}
-                    className={`py-2.5 px-1 rounded-xl text-[10px] font-black tracking-wider transition-all flex items-center justify-center gap-1.5 ${
-                      targetSpeed === 60
-                        ? 'bg-brand-blue text-white shadow-md shadow-blue-200'
-                        : 'bg-slate-50 text-slate-600 hover:bg-blue-50 hover:text-brand-blue border border-slate-200'
-                    }`}
+                    className={`py-2.5 px-1 rounded-xl text-[10px] font-black tracking-wider transition-all flex items-center justify-center gap-1.5 ${targetSpeed === 60
+                      ? 'bg-brand-blue text-white shadow-md shadow-blue-200'
+                      : 'bg-slate-50 text-slate-600 hover:bg-blue-50 hover:text-brand-blue border border-slate-200'
+                      }`}
                   >
                     <Compass className="w-3 h-3" /> CRUISE
                   </button>
 
                   <button
                     onClick={() => setTargetSpeed(100)}
-                    className={`py-2.5 px-1 rounded-xl text-[10px] font-black tracking-wider transition-all flex items-center justify-center gap-1.5 ${
-                      targetSpeed === 100
-                        ? 'bg-emerald-600 text-white shadow-md shadow-emerald-200'
-                        : 'bg-slate-50 text-slate-600 hover:bg-green-50 hover:text-green-600 border border-slate-200'
-                    }`}
+                    className={`py-2.5 px-1 rounded-xl text-[10px] font-black tracking-wider transition-all flex items-center justify-center gap-1.5 ${targetSpeed === 100
+                      ? 'bg-emerald-600 text-white shadow-md shadow-emerald-200'
+                      : 'bg-slate-50 text-slate-600 hover:bg-green-50 hover:text-green-600 border border-slate-200'
+                      }`}
                   >
                     <Zap className="w-3 h-3" /> ACCELERATE
                   </button>
