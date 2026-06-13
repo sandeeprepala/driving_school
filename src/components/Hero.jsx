@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, MessageCircle, ShieldCheck, Star, Calendar, Zap, Compass, Gauge } from 'lucide-react';
+import { ArrowRight, MessageCircle, Phone, ShieldCheck, Star, Calendar, Zap, Compass, Gauge } from 'lucide-react';
 
 const Hero = () => {
   const [targetSpeed, setTargetSpeed] = useState(60);
@@ -134,11 +134,34 @@ const Hero = () => {
               </motion.p>
             </div>
 
+            {/* Quick Contact Buttons */}
+            <motion.div
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.25 }}
+              className="flex flex-wrap items-center gap-3"
+            >
+              <a
+                href="tel:+919000111697"
+                className="inline-flex items-center gap-2 bg-brand-blue text-white px-6 py-3 rounded-full font-bold text-xs hover:bg-blue-700 hover:scale-105 transition-all shadow-md"
+              >
+                <Phone className="w-4 h-4" /> Call Manager (+91 90001 11697)
+              </a>
+              <a
+                href="https://wa.me/919000111697"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-[#25D366] text-white px-6 py-3 rounded-full font-bold text-xs hover:bg-[#20b858] hover:scale-105 transition-all shadow-md"
+              >
+                <MessageCircle className="w-4 h-4" /> WhatsApp Chat
+              </a>
+            </motion.div>
+
             {/* Booking Form Card */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.3 }}
+              transition={{ duration: 0.8, delay: 0.35 }}
               className="bg-white p-6 rounded-3xl border border-slate-100 shadow-xl relative max-w-xl"
             >
               <h3 className="text-sm font-bold text-slate-950 mb-4 flex items-center gap-2 border-b border-slate-50 pb-3">
