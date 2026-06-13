@@ -157,58 +157,6 @@ const Hero = () => {
               </a>
             </motion.div>
 
-            {/* Booking Form Card */}
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.35 }}
-              className="bg-white p-6 rounded-3xl border border-slate-100 shadow-xl relative max-w-xl"
-            >
-              <h3 className="text-sm font-bold text-slate-950 mb-4 flex items-center gap-2 border-b border-slate-50 pb-3">
-                <Calendar className="w-4.5 h-4.5 text-brand-blue" />
-                Schedule a Free Demo Class
-              </h3>
-
-              {showDemoAlert ? (
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.95 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  className="bg-green-50 border border-green-200 text-green-700 p-4 rounded-xl text-center text-xs font-bold"
-                >
-                  🎉 Demo class slot locked! Instructor Anil will call you at +91 90001 11697 shortly.
-                </motion.div>
-              ) : (
-                <form className="grid grid-cols-1 sm:grid-cols-3 gap-4" onSubmit={handleDemoBooking}>
-                  <div>
-                    <label className="block text-[10px] font-extrabold text-slate-400 uppercase mb-1.5">Vehicle</label>
-                    <div className="relative">
-                      <select className="w-full bg-slate-50 border border-slate-200/80 rounded-xl px-3 py-2.5 text-xs text-slate-800 font-bold focus:outline-none appearance-none">
-                        <option>Four Wheeler (Car)</option>
-                        <option>Two Wheeler (Bike)</option>
-                        <option>Scooter (Gearless)</option>
-                      </select>
-                      <span className="absolute right-3 top-1/2 -translate-y-1/2 text-[8px] text-slate-400 pointer-events-none">▼</span>
-                    </div>
-                  </div>
-                  <div>
-                    <label className="block text-[10px] font-extrabold text-slate-400 uppercase mb-1.5">Timing Batch</label>
-                    <div className="relative">
-                      <select className="w-full bg-slate-50 border border-slate-200/80 rounded-xl px-3 py-2.5 text-xs text-slate-800 font-bold focus:outline-none appearance-none">
-                        <option>Morning (6am - 9am)</option>
-                        <option>Noon (11am - 2pm)</option>
-                        <option>Evening (4pm - 7pm)</option>
-                      </select>
-                      <span className="absolute right-3 top-1/2 -translate-y-1/2 text-[8px] text-slate-400 pointer-events-none">▼</span>
-                    </div>
-                  </div>
-                  <div className="flex items-end">
-                    <button type="submit" className="w-full bg-brand-blue text-white py-2.5 rounded-xl font-bold text-xs hover:bg-blue-700 transition-all shadow-sm flex items-center justify-center gap-1">
-                      Check Slots <ArrowRight className="w-3.5 h-3.5" />
-                    </button>
-                  </div>
-                </form>
-              )}
-            </motion.div>
 
             <motion.div
               initial={{ opacity: 0 }}
