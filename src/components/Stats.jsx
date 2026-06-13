@@ -5,7 +5,7 @@ const stats = [
   { value: 15, label: "Years Experience", suffix: "+" },
   { value: 5000, label: "Students Trained", suffix: "+" },
   { value: 98, label: "Success Rate", suffix: "%" },
-  { value: 10, label: "Training Vehicles", suffix: "" }
+  { value: 12, label: "Training Vehicles", suffix: "" }
 ];
 
 const Counter = ({ from, to, duration, inView }) => {
@@ -37,8 +37,8 @@ const Stats = () => {
   const inView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section className="py-20 bg-brand-black border-y border-white/5 relative overflow-hidden" ref={ref}>
-      <div className="absolute inset-0 bg-brand-yellow/5"></div>
+    <section className="py-12 md:py-20 bg-slate-50 border-y border-slate-100 relative overflow-hidden" ref={ref}>
+      <div className="absolute inset-0 bg-brand-blue/[0.02]"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {stats.map((stat, index) => (
@@ -49,11 +49,11 @@ const Stats = () => {
               transition={{ delay: index * 0.1, duration: 0.5 }}
               className="text-center"
             >
-              <div className="text-4xl md:text-5xl lg:text-6xl font-black text-brand-yellow mb-2 font-mono">
+              <div className="text-4xl md:text-5xl lg:text-6xl font-black text-brand-blue mb-2 font-mono">
                 <Counter from={0} to={stat.value} duration={2} inView={inView} />
                 {stat.suffix}
               </div>
-              <div className="text-gray-400 font-medium uppercase tracking-widest text-xs md:text-sm">
+              <div className="text-slate-500 font-bold uppercase tracking-widest text-xs md:text-sm">
                 {stat.label}
               </div>
             </motion.div>
