@@ -46,7 +46,7 @@ const About = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent z-10"></div>
               
               <img 
-                src="https://res-console.cloudinary.com/djqfcheof/thumbnails/transform/v1/image/upload/Y19maWxsLGhfMjAwLHdfMjAw/v1/Q2hhdEdQVF9JbWFnZV9KdW5fMTNfMjAyNl8xMl8yNF8zMV9QTV92ZzkzaXM=/template_primary" 
+                src="https://res.cloudinary.com/djqfcheof/image/upload/v1781333681/ChatGPT_Image_Jun_13_2026_12_24_31_PM_vg93is.png" 
                 alt="Sai Sandya Driving School" 
                 className="absolute inset-0 w-full h-full object-cover" 
               />
