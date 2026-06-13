@@ -6,7 +6,7 @@ const faqs = [
   {
     id: 1,
     question: "Can I rent a car for a few weeks?",
-    answer: "Yes, you can. Sai Sandya Motor Driving School offers customizable rental solutions across our diverse fleet including Hatchbacks, Sedans, and SUVs. Rates vary based on vehicle model and lease duration."
+    answer: "Yes, you can. Sai Sandhya Motor Driving School offers customizable rental solutions across our diverse fleet including Hatchbacks, Sedans, and SUVs. Rates vary based on vehicle model and lease duration."
   },
   {
     id: 2,

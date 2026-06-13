@@ -15,7 +15,7 @@ const Footer = () => {
               </div>
               <div>
                 <h2 className="text-xl font-bold text-slate-900 tracking-tight leading-none">
-                  Sai Sandya
+                  Sai Sandhya
                 </h2>
                 <span className="text-xs text-brand-blue tracking-widest uppercase font-semibold">
                   Motor Driving School
@@ -82,7 +82,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-slate-200 pt-8 text-center text-slate-400 text-xs flex flex-col md:flex-row justify-between items-center gap-4">
-          <p>&copy; {new Date().getFullYear()} Sai Sandya Motor Driving School. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Sai Sandhya Motor Driving School. All rights reserved.</p>
           <div className="flex gap-4 font-semibold text-slate-500">
             <a href="#" className="hover:text-brand-blue transition-all">Privacy Policy</a>
             <a href="#" className="hover:text-brand-blue transition-all">Terms of Service</a>

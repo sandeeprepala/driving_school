@@ -86,7 +86,7 @@ const Contact = () => {
                 allowFullScreen="" 
                 loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Sai Sandya Driving School Location Map"
+                title="Sai Sandhya Driving School Location Map"
               ></iframe>
             </div>
 

@@ -38,7 +38,7 @@ const Hero = () => {
   const bounceIntensity = isMoving ? Math.min(1.5, speedFactor * 0.8) : 0;
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white pt-16 md:pt-20 pb-10 md:pb-12">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white pt-28 md:pt-24 pb-10 md:pb-12">
 
       {/* Dynamic Stylesheet */}
       <style>{`
@@ -447,8 +447,8 @@ const Hero = () => {
                     <rect x="175" y="12" width="18" height="14" fill="white" stroke="#1E293B" strokeWidth="1.5" rx="2"/>
                     <text x="184" y="23" textAnchor="middle" fontSize="11" fontWeight="900" fill="#DC2626" fontFamily="Impact, Arial Black, sans-serif">L</text>
 
-                    {/* === "SAI SANDYA DRIVING SCHOOL" text on body === */}
-                    <text x="172" y="60" textAnchor="middle" fontSize="6" fontWeight="800" fill="#1E40AF" fontFamily="Arial, sans-serif" letterSpacing="1.2" opacity="0.8">SAI SANDYA DRIVING SCHOOL</text>
+                    {/* === "SAI SANDHYA DRIVING SCHOOL" text on body === */}
+                    <text x="172" y="60" textAnchor="middle" fontSize="6" fontWeight="800" fill="#1E40AF" fontFamily="Arial, sans-serif" letterSpacing="1.2" opacity="0.8">SAI SANDHYA DRIVING SCHOOL</text>
 
                     {/* === SIDE MIRROR === */}
                     <rect x="256" y="44" width="10" height="8" rx="3" fill="#94A3B8" stroke="#64748B" strokeWidth="1"/>

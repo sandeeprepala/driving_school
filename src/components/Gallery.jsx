@@ -80,7 +80,7 @@ const Gallery = () => {
             School Gallery
           </span>
           <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6">
-            Life At Sai Sandya
+            Life At Sai Sandhya
           </h2>
           <p className="text-slate-500 text-lg">
             Glance through our training grounds, active vehicular fleet, student coaching sessions, and success stories.

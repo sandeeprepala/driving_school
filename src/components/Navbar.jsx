@@ -49,7 +49,7 @@ const Navbar = () => {
             </div>
             <div>
               <h1 className="text-xl font-bold text-slate-900 tracking-tight leading-none">
-                Sai Sandya
+                Sai Sandhya
               </h1>
               <span className="text-[10px] text-brand-blue tracking-widest uppercase font-bold">
                 Motor Driving School

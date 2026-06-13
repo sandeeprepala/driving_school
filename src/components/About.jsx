@@ -47,7 +47,7 @@ const About = () => {
               
               <img 
                 src="https://res.cloudinary.com/djqfcheof/image/upload/v1781333681/ChatGPT_Image_Jun_13_2026_12_24_31_PM_vg93is.png" 
-                alt="Sai Sandya Driving School" 
+                alt="Sai Sandhya Driving School" 
                 className="absolute inset-0 w-full h-full object-cover" 
               />
 
@@ -55,7 +55,7 @@ const About = () => {
               {/* Overlay with local branding */}
               <div className="absolute bottom-8 left-8 right-8 z-20 text-white">
                 <h3 className="text-3xl font-extrabold tracking-tight mb-1">
-                  Sai Sandya
+                  Sai Sandhya
                 </h3>
                 <p className="text-brand-yellow font-bold tracking-widest text-sm uppercase">
                   Motor Driving School
@@ -96,11 +96,11 @@ const About = () => {
             </motion.div>
             
             <motion.h2 variants={itemVariants} className="text-4xl lg:text-5xl font-extrabold text-slate-900 mb-6 leading-tight">
-              Master the Road with <span className="text-brand-blue">Sai Sandya</span>
+              Master the Road with <span className="text-brand-blue">Sai Sandhya</span>
             </motion.h2>
             
             <motion.p variants={itemVariants} className="text-slate-600 text-lg mb-8 leading-relaxed">
-              Located in <strong>Kandlakoya, Rangareddy</strong>, Sai Sandya Motor Driving School Anil is a premier training provider dedicated to top-notch road education. We combine professional, structured theoretical guidelines with hands-on practice, helping you become an expert, responsible driver.
+              Located in <strong>Kandlakoya, Rangareddy</strong>, Sai Sandhya Motor Driving School Anil is a premier training provider dedicated to top-notch road education. We combine professional, structured theoretical guidelines with hands-on practice, helping you become an expert, responsible driver.
             </motion.p>
 
             <motion.div variants={itemVariants} className="mb-8">
